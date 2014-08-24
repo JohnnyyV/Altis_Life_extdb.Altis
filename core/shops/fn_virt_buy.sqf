@@ -11,13 +11,16 @@ if((lbCurSel 2401) == -1) exitWith {hint "Tu dois sélectionner un objet a achet
 _type = lbData[2401,(lbCurSel 2401)];
 _price = lbValue[2401,(lbCurSel 2401)];
 _amount = ctrlText 2404;
+
 ////On appel le prix du marché actuelle en cas d'achat////
+/*
 _marketprice = [_type] call life_fnc_marketGetBuyPrice;
 if(_marketprice != -1) then
 {
 	_price = _marketprice;
 };
 		////Fin marché////
+*/
 if(!([_amount] call fnc_isnumber)) exitWith {hint "Mauvais nombre";};
 _diff = [_type,parseNumber(_amount),life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
 _amount = parseNumber(_amount);

@@ -423,7 +423,7 @@ buy_array =
 	["defusekit",2500],
 	["storagesmall",75000],
 	["storagebig",150000],
-	["goldbar",60000],
+	["goldbar",100000],
 	["ziptie",3000],//added by asurion
 	["hamburger",75],//added by asurion
 	["frites",60],//added by asurion
@@ -431,11 +431,11 @@ buy_array =
 	["barriere",2500],//added by asurion
 	["barriereStop",2500],//added by asurion
  //   ["storage2",250000],//added by asurion
-	["acideahlorhydrique",2500],//added by asurion
-	["hydrogenchloride",250],//added by asurion
-	["hydroxydesodiumanhydre",100],//added by asurion
-	["poudrehydroxyde",3600],
-	["crystalmethpur",10750],
+	["acideahlorhydrique",25000],//added by asurion
+	["hydrogenchloride",25000],//added by asurion
+	["hydroxydesodiumanhydre",30000],//added by asurion
+	["poudrehydroxyde",36000],
+	["crystalmethpur",30750],
 	["kitmeth",2000]//added by asurion
 
 ];
