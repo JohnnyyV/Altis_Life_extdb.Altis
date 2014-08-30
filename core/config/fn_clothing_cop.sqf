@@ -64,6 +64,7 @@ switch (_filter) do
 				_ret set[count _ret,["U_B_CTRG_2",nil,860]];
 				_ret set[count _ret,["U_B_SpecopsUniform_sgg","Uniforme GIGN",0]];
 				_ret set[count _ret,["U_B_CombatUniform_mcam_vest","Uniforme Olive FR",0]];
+				_ret set[count _ret,["U_I_G_resistanceLeader_F",nil,0]];
 			};
 			case 7 : {
 				_ret set[count _ret,["U_Rangemaster","Uniforme de gendarme",0]];
